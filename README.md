@@ -2,13 +2,13 @@
 
 - Author :     RUIZ QUINTANA, Diego
 - Description: This module performs the hyperbolic 
-tangent for AI purposes. It has a latency of 11
-clock cycles and a Slow Fmax of 160 MHz and a 
-fast fmax of 315 MHz. The number of ALM's are 210
-and a total of 289 registers. The input is in 
-IEEE-754 standard, the intermediate calculus are
-performed in S13.18 Q format in fixed point and 
-output is in the IEEE-754 standard of 32 bits.
+  tangent for AI purposes. It has a latency of 11
+  clock cycles and a Slow Fmax of 160 MHz and a 
+  fast fmax of 315 MHz. The number of ALM's are 210
+  and a total of 289 registers. The input is in 
+  IEEE-754 standard, the intermediate calculus are
+  performed in S13.18 Q format in fixed point and 
+  output is in the IEEE-754 standard of 32 bits.
 
 The used method to calculate the Tanh(x) is via
 table interpolation doing use of 2 ROMS of 1024
