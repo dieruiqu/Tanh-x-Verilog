@@ -1,0 +1,6 @@
+Warning (10030): Net "rom.data_a" at ROM1.v(8) has no driver or initial value, using a default initial value '0' File: /home/diegotf/Escritorio/Addressings/Tanh_semidef/ROM1.v Line: 8
+Warning (10030): Net "rom.waddr_a" at ROM1.v(8) has no driver or initial value, using a default initial value '0' File: /home/diegotf/Escritorio/Addressings/Tanh_semidef/ROM1.v Line: 8
+Warning (10030): Net "rom.we_a" at ROM1.v(8) has no driver or initial value, using a default initial value '0' File: /home/diegotf/Escritorio/Addressings/Tanh_semidef/ROM1.v Line: 8
+Warning (10030): Net "rom.data_a" at ROM2.v(8) has no driver or initial value, using a default initial value '0' File: /home/diegotf/Escritorio/Addressings/Tanh_semidef/ROM2.v Line: 8
+Warning (10030): Net "rom.waddr_a" at ROM2.v(8) has no driver or initial value, using a default initial value '0' File: /home/diegotf/Escritorio/Addressings/Tanh_semidef/ROM2.v Line: 8
+Warning (10030): Net "rom.we_a" at ROM2.v(8) has no driver or initial value, using a default initial value '0' File: /home/diegotf/Escritorio/Addressings/Tanh_semidef/ROM2.v Line: 8

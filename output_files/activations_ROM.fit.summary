@@ -1,0 +1,20 @@
+Fitter Status : Successful - Wed Mar 17 18:49:52 2021
+Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+Revision Name : activations_ROM
+Top-level Entity Name : core
+Family : Cyclone V
+Device : 5CGXFC7C7F23C8
+Timing Models : Final
+Logic utilization (in ALMs) : 213 / 56,480 ( < 1 % )
+Total registers : 258
+Total pins : 66 / 268 ( 25 % )
+Total virtual pins : 0
+Total block memory bits : 30,796 / 7,024,640 ( < 1 % )
+Total RAM Blocks : 5 / 686 ( < 1 % )
+Total DSP Blocks : 1 / 156 ( < 1 % )
+Total HSSI RX PCSs : 0 / 6 ( 0 % )
+Total HSSI PMA RX Deserializers : 0 / 6 ( 0 % )
+Total HSSI TX PCSs : 0 / 6 ( 0 % )
+Total HSSI PMA TX Serializers : 0 / 6 ( 0 % )
+Total PLLs : 0 / 13 ( 0 % )
+Total DLLs : 0 / 4 ( 0 % )

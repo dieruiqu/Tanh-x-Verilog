@@ -1,0 +1,596 @@
+m255
+K4
+z2
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/diegotf/Escritorio/FPGA_Projects/Exp_Lut/simulation/modelsim
+vadd_one
+!s110 1615709557
+!i10b 1
+!s100 6=TdY`O_mSzb2Ze^E`2ld2
+I@^d@=g6coK8kX1LBS?>b32
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+Z1 d/home/diegotf/Escritorio/Addressing update/Adressing/Addressing/verilog/Act_Functions/simulation
+w1615709487
+Z2 8/home/diegotf/Escritorio/Addressing update/Adressing/Addressing/verilog/Act_Functions/core.v
+Z3 F/home/diegotf/Escritorio/Addressing update/Adressing/Addressing/verilog/Act_Functions/core.v
+L0 294
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1615709557.000000
+Z5 !s107 /home/diegotf/Escritorio/Addressing update/Adressing/Addressing/verilog/Act_Functions/core.v|
+Z6 !s90 -reportprogress|300|-work|work|-stats=none|/home/diegotf/Escritorio/Addressing update/Adressing/Addressing/verilog/Act_Functions/core.v|
+!i113 1
+Z7 o-work work
+Z8 tCvgOpt 0
+vadder_one
+!s110 1615711270
+!i10b 1
+!s100 9C^ZQVjodJ?EH[j7Wai=a3
+IjDKUVI7ST[nYgiIEjbdnF0
+R0
+R1
+w1615710746
+R2
+R3
+L0 298
+R4
+r1
+!s85 0
+31
+!s108 1615711270.000000
+R5
+R6
+!i113 1
+R7
+R8
+vaddress_resolver
+Z9 !s110 1616004445
+!i10b 1
+!s100 ZD[5VCoCXPHDD?<cH<9^e0
+I5>mA3cJ]_nj>BOmJAzi;Y3
+R0
+Z10 d/home/diegotf/Escritorio/Addressings/Tanh_semidef/simulation
+Z11 w1616003294
+Z12 8/home/diegotf/Escritorio/Addressings/Tanh_semidef/core.v
+Z13 F/home/diegotf/Escritorio/Addressings/Tanh_semidef/core.v
+L0 167
+R4
+r1
+!s85 0
+31
+Z14 !s108 1616004444.000000
+Z15 !s107 /home/diegotf/Escritorio/Addressings/Tanh_semidef/core.v|
+Z16 !s90 -reportprogress|300|-work|work|-stats=none|/home/diegotf/Escritorio/Addressings/Tanh_semidef/core.v|
+!i113 1
+R7
+R8
+vaddress_tb
+Z17 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+!s110 1616004444
+!i10b 1
+!s100 F:4G<DkI8B8kb:PZUlg8b2
+ISja2>BGmMVRXce[XXm@lk2
+R0
+!s105 addres_tb_sv_unit
+S1
+R10
+w1615999486
+8/home/diegotf/Escritorio/Addressings/Tanh_semidef/simulation/addres_tb.sv
+F/home/diegotf/Escritorio/Addressings/Tanh_semidef/simulation/addres_tb.sv
+L0 2
+R4
+r1
+!s85 0
+31
+R14
+!s107 /home/diegotf/Escritorio/Addressings/Tanh_semidef/simulation/addres_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/diegotf/Escritorio/Addressings/Tanh_semidef/simulation/addres_tb.sv|
+!i113 1
+Z18 o-work work -sv
+R8
+vadjust
+!s110 1615937579
+!i10b 1
+!s100 X0DO0V_FWY=>Y>TeY4]][0
+I^3Z_6i?0IKmadkCNmPolE3
+R0
+d/home/diegotf/Escritorio/Addressings/Addressing Updates/Addressing update 4/Adressing/Addressing/verilog/Act_Functions/simulation
+w1615937478
+8/home/diegotf/Escritorio/Addressings/Addressing Updates/Addressing update 4/Adressing/Addressing/verilog/Act_Functions/core.v
+F/home/diegotf/Escritorio/Addressings/Addressing Updates/Addressing update 4/Adressing/Addressing/verilog/Act_Functions/core.v
+L0 62
+R4
+r1
+!s85 0
+31
+!s108 1615937579.000000
+!s107 /home/diegotf/Escritorio/Addressings/Addressing Updates/Addressing update 4/Adressing/Addressing/verilog/Act_Functions/core.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/diegotf/Escritorio/Addressings/Addressing Updates/Addressing update 4/Adressing/Addressing/verilog/Act_Functions/core.v|
+!i113 1
+R7
+R8
+vBNE
+R9
+!i10b 1
+!s100 Ii12:z3NFo9EEz:aiIIQ10
+IUDZglJY^N@E1`71nYh09b1
+R0
+R10
+Z19 w1616000519
+Z20 8/home/diegotf/Escritorio/Addressings/Tanh_semidef/fixed32_to_fp32.v
+Z21 F/home/diegotf/Escritorio/Addressings/Tanh_semidef/fixed32_to_fp32.v
+L0 131
+R4
+r1
+!s85 0
+31
+Z22 !s108 1616004445.000000
+Z23 !s107 /home/diegotf/Escritorio/Addressings/Tanh_semidef/fixed32_to_fp32.v|
+Z24 !s90 -reportprogress|300|-work|work|-stats=none|/home/diegotf/Escritorio/Addressings/Tanh_semidef/fixed32_to_fp32.v|
+!i113 1
+R7
+R8
+n@b@n@e
+vCLZ_32bits
+R9
+!i10b 1
+!s100 Y?>07[4k=zdzAU0>h5B_Q1
+Ie6M?l^8Q;709Zb`c_]>D80
+R0
+R10
+R19
+R20
+R21
+L0 76
+R4
+r1
+!s85 0
+31
+R22
+R23
+R24
+!i113 1
+R7
+R8
+n@c@l@z_32bits
+vcore
+R9
+!i10b 1
+!s100 FcG1[kWV<=zNY5akMI8MF2
+ISTPZ=BRMEn0Id[9OO?9Tm0
+R0
+R10
+R11
+R12
+R13
+L0 48
+R4
+r1
+!s85 0
+31
+R14
+R15
+R16
+!i113 1
+R7
+R8
+vdual_port_rom
+!s110 1615913465
+!i10b 1
+!s100 Ue4I`WGDE[RHIEk]6S?an2
+I9K>S_U=V9nW2jLC[SnUBd0
+R0
+Z25 d/home/diegotf/Escritorio/Addressing update 3/Adressing/Addressing/verilog/Act_Functions/simulation
+w1615846160
+8/home/diegotf/Escritorio/Addressing update 2/Adressing/Addressing/verilog/Act_Functions/dual_port_rom.v
+F/home/diegotf/Escritorio/Addressing update 2/Adressing/Addressing/verilog/Act_Functions/dual_port_rom.v
+L0 1
+R4
+r1
+!s85 0
+31
+Z26 !s108 1615913465.000000
+!s107 /home/diegotf/Escritorio/Addressing update 2/Adressing/Addressing/verilog/Act_Functions/dual_port_rom.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/diegotf/Escritorio/Addressing update 2/Adressing/Addressing/verilog/Act_Functions/dual_port_rom.v|
+!i113 1
+R7
+R8
+vfixed32_to_fp32
+R9
+!i10b 1
+!s100 L]PcEkRojE^z<zh2cbfHj1
+II4lm3i12iZ7j5Z3A?UiEj2
+R0
+R10
+R19
+R20
+R21
+L0 10
+R4
+r1
+!s85 0
+31
+R22
+R23
+R24
+!i113 1
+R7
+R8
+vint_resolve
+!s110 1615757698
+!i10b 1
+!s100 GH>]iIG4MI5_DZ2W:S6Kj0
+Z27 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I=DeP7SNIDU_>2`RWcR7W93
+R0
+Z28 d/home/diegotf/Escritorio/Addressing update 2/Adressing/Addressing/verilog/Act_Functions/simulation
+w1615736516
+R2
+R3
+!i122 374
+L0 219 37
+Z29 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1615757697.000000
+R5
+R6
+!i113 1
+R7
+R8
+vinterface
+!s110 1615725149
+!i10b 1
+!s100 _n9oK_;CXH9`KFY8enKm93
+R27
+I]g5T]>cBjk>^2VT;YDRZZ3
+R0
+R1
+w1615724110
+8/home/diegotf/Escritorio/Addressing update/Adressing/Addressing/verilog/Act_Functions/interface.v
+F/home/diegotf/Escritorio/Addressing update/Adressing/Addressing/verilog/Act_Functions/interface.v
+!i122 7
+L0 2 21
+R29
+r1
+!s85 0
+31
+!s108 1615725149.000000
+!s107 /home/diegotf/Escritorio/Addressing update/Adressing/Addressing/verilog/Act_Functions/interface.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/diegotf/Escritorio/Addressing update/Adressing/Addressing/verilog/Act_Functions/interface.v|
+!i113 1
+R7
+R8
+vinterface_
+Z30 !s110 1615727854
+!i10b 1
+!s100 ZKSRS[GJEm2=4J7gM3Dh12
+R27
+I^U^Z5>7?@j:Pm>M5`3cRO1
+R0
+R1
+w1615727638
+8/home/diegotf/Escritorio/Addressing update/Adressing/Addressing/verilog/Act_Functions/interface_.v
+F/home/diegotf/Escritorio/Addressing update/Adressing/Addressing/verilog/Act_Functions/interface_.v
+!i122 183
+L0 2 40
+R29
+r1
+!s85 0
+31
+Z31 !s108 1615727854.000000
+!s107 /home/diegotf/Escritorio/Addressing update/Adressing/Addressing/verilog/Act_Functions/interface_.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/diegotf/Escritorio/Addressing update/Adressing/Addressing/verilog/Act_Functions/interface_.v|
+!i113 1
+R7
+R8
+vinterpolator
+R9
+!i10b 1
+!s100 :WkSERT=D8_lKGNX7<4SP3
+INhae3@XDUAhMh`gFl8Um`2
+R0
+R10
+R11
+R12
+R13
+L0 105
+R4
+r1
+!s85 0
+31
+R14
+R15
+R16
+!i113 1
+R7
+R8
+vis_little
+R30
+!i10b 1
+!s100 UGB]48XYbY?X6omK3oKbZ2
+R27
+IAXmYZWO@BG_G[lbZBg6l_3
+R0
+R1
+w1615727846
+8/home/diegotf/Escritorio/Addressing update/Adressing/Addressing/verilog/Act_Functions/is_little.v
+F/home/diegotf/Escritorio/Addressing update/Adressing/Addressing/verilog/Act_Functions/is_little.v
+!i122 182
+L0 2 65
+R29
+r1
+!s85 0
+31
+R31
+!s107 /home/diegotf/Escritorio/Addressing update/Adressing/Addressing/verilog/Act_Functions/is_little.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/diegotf/Escritorio/Addressing update/Adressing/Addressing/verilog/Act_Functions/is_little.v|
+!i113 1
+R7
+R8
+vlinear_out
+R9
+!i10b 1
+!s100 TzZTWO<afBa3MG8g[11GY1
+IDlN]4SVLShUHB;jL:PY[V0
+R0
+R10
+w1615987760
+8/home/diegotf/Escritorio/Addressings/Tanh_semidef/linear_out.v
+F/home/diegotf/Escritorio/Addressings/Tanh_semidef/linear_out.v
+L0 2
+R4
+r1
+!s85 0
+31
+R22
+!s107 /home/diegotf/Escritorio/Addressings/Tanh_semidef/linear_out.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/diegotf/Escritorio/Addressings/Tanh_semidef/linear_out.v|
+!i113 1
+R7
+R8
+vmassive_func
+!s110 1615913466
+!i10b 1
+!s100 OZeIe9AaXK8G@I`K1nkPL1
+IOjL51C>c433zBRT9G0Qj;0
+R0
+R25
+w1615142349
+8/home/diegotf/Escritorio/Addressing update 2/Adressing/Addressing/verilog/Act_Functions/massive_func.v
+F/home/diegotf/Escritorio/Addressing update 2/Adressing/Addressing/verilog/Act_Functions/massive_func.v
+L0 2
+R4
+r1
+!s85 0
+31
+R26
+!s107 /home/diegotf/Escritorio/Addressing update 2/Adressing/Addressing/verilog/Act_Functions/massive_func.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/diegotf/Escritorio/Addressing update 2/Adressing/Addressing/verilog/Act_Functions/massive_func.v|
+!i113 1
+R7
+R8
+vmux_282
+R9
+!i10b 1
+!s100 CJOh5Id<QZ59@m?ilP`Qo1
+I;mIJYL@0dUR]KQnX>noBe3
+R0
+R10
+R19
+R20
+R21
+L0 150
+R4
+r1
+!s85 0
+31
+R22
+R23
+R24
+!i113 1
+R7
+R8
+vpipe_signals
+R9
+!i10b 1
+!s100 bTR3KeMkXDY?GoSPzCXW53
+IbOi=R9^kR`NPG2zIT7A;R1
+R0
+R10
+w1616000562
+8/home/diegotf/Escritorio/Addressings/Tanh_semidef/pipe_signals.v
+F/home/diegotf/Escritorio/Addressings/Tanh_semidef/pipe_signals.v
+L0 9
+R4
+r1
+!s85 0
+31
+R22
+!s107 /home/diegotf/Escritorio/Addressings/Tanh_semidef/pipe_signals.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/diegotf/Escritorio/Addressings/Tanh_semidef/pipe_signals.v|
+!i113 1
+R7
+R8
+vpriority_encoder_4b
+R9
+!i10b 1
+!s100 k]Wz4@;?fLHeYBY4aMFjo1
+IjdCaGkYReB<U4BIZW9B5N0
+R0
+R10
+R19
+R20
+R21
+L0 109
+R4
+r1
+!s85 0
+31
+R22
+R23
+R24
+!i113 1
+R7
+R8
+vregions
+R9
+!i10b 1
+!s100 abgkZ60S9oKo=_M6fzc>G0
+I557YKEgb_Yn1B2nKJk==f2
+R0
+R10
+w1615983301
+8/home/diegotf/Escritorio/Addressings/Tanh_semidef/regions.v
+F/home/diegotf/Escritorio/Addressings/Tanh_semidef/regions.v
+L0 2
+R4
+r1
+!s85 0
+31
+R22
+!s107 /home/diegotf/Escritorio/Addressings/Tanh_semidef/regions.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/diegotf/Escritorio/Addressings/Tanh_semidef/regions.v|
+!i113 1
+R7
+R8
+vregions_tb
+R17
+!s110 1616004290
+!i10b 1
+!s100 QC80Ud99RaP]672>hY4gI1
+I78L1ZS[h3o5c6aTHai8B23
+R0
+!s105 regions_tb_sv_unit
+S1
+R10
+w1615988338
+8/home/diegotf/Escritorio/Addressings/Tanh/simulation/regions_tb.sv
+F/home/diegotf/Escritorio/Addressings/Tanh/simulation/regions_tb.sv
+L0 3
+R4
+r1
+!s85 0
+31
+!s108 1616004290.000000
+!s107 /home/diegotf/Escritorio/Addressings/Tanh/simulation/regions_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/diegotf/Escritorio/Addressings/Tanh/simulation/regions_tb.sv|
+!i113 1
+R18
+R8
+vresolve_address
+!s110 1615917888
+!i10b 1
+!s100 31dj<b85NVjom<TTJN6<31
+I30M?T3d0`jVLINR<bAzST2
+R0
+R25
+w1615917884
+8/home/diegotf/Escritorio/Addressing update 3/Adressing/Addressing/verilog/Act_Functions/core.v
+F/home/diegotf/Escritorio/Addressing update 3/Adressing/Addressing/verilog/Act_Functions/core.v
+L0 187
+R4
+r1
+!s85 0
+31
+!s108 1615917888.000000
+!s107 /home/diegotf/Escritorio/Addressing update 3/Adressing/Addressing/verilog/Act_Functions/core.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/diegotf/Escritorio/Addressing update 3/Adressing/Addressing/verilog/Act_Functions/core.v|
+!i113 1
+R7
+R8
+vROM1
+R9
+!i10b 1
+!s100 e5l:7gJD`LeRMGaU6>I>c0
+I?kblF6cRJhel@ClSjMfUU1
+R0
+R10
+w1615998719
+8/home/diegotf/Escritorio/Addressings/Tanh_semidef/ROM1.v
+F/home/diegotf/Escritorio/Addressings/Tanh_semidef/ROM1.v
+L0 1
+R4
+r1
+!s85 0
+31
+R22
+!s107 /home/diegotf/Escritorio/Addressings/Tanh_semidef/ROM1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/diegotf/Escritorio/Addressings/Tanh_semidef/ROM1.v|
+!i113 1
+R7
+R8
+n@r@o@m1
+vROM2
+R9
+!i10b 1
+!s100 l35@zIBD^h[6@d0L42]<g0
+I:VfmZc31[=2An=0n>Wa@23
+R0
+R10
+w1615998717
+8/home/diegotf/Escritorio/Addressings/Tanh_semidef/ROM2.v
+F/home/diegotf/Escritorio/Addressings/Tanh_semidef/ROM2.v
+L0 1
+R4
+r1
+!s85 0
+31
+R22
+!s107 /home/diegotf/Escritorio/Addressings/Tanh_semidef/ROM2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/diegotf/Escritorio/Addressings/Tanh_semidef/ROM2.v|
+!i113 1
+R7
+R8
+n@r@o@m2
+vset_vars
+!s110 1615941012
+!i10b 1
+!s100 D7i8A=Eo7[]a2I^f7C:4W0
+Ih5H5lVSJo[m_]SgZ[T_6Y1
+R0
+d/home/diegotf/Escritorio/Addressings/Tanh/simulation
+w1615940614
+8/home/diegotf/Escritorio/Addressings/Tanh/core.v
+F/home/diegotf/Escritorio/Addressings/Tanh/core.v
+L0 119
+R4
+r1
+!s85 0
+31
+!s108 1615941012.000000
+!s107 /home/diegotf/Escritorio/Addressings/Tanh/core.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/diegotf/Escritorio/Addressings/Tanh/core.v|
+!i113 1
+R7
+R8
+vsingle_port_rom
+!s110 1615791764
+!i10b 1
+!s100 3lJPfKz6T]i>;m;SR3mD03
+IE3g1z<`mGA@@JmEi4k<=P0
+R0
+R28
+w1615139426
+8/home/diegotf/Escritorio/Addressing update 2/Adressing/Addressing/verilog/Act_Functions/single_port_rom.v
+F/home/diegotf/Escritorio/Addressing update 2/Adressing/Addressing/verilog/Act_Functions/single_port_rom.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1615791764.000000
+!s107 /home/diegotf/Escritorio/Addressing update 2/Adressing/Addressing/verilog/Act_Functions/single_port_rom.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/diegotf/Escritorio/Addressing update 2/Adressing/Addressing/verilog/Act_Functions/single_port_rom.v|
+!i113 1
+R7
+R8

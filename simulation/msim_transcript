@@ -1,0 +1,494 @@
+vsim -i -l msim_transcript work.address_tb
+# vsim -i -l msim_transcript work.address_tb 
+# Start time: 22:33:03 on Mar 14,2021
+# Loading sv_std.std
+# Loading work.address_tb
+# Loading work.core
+# Loading work.pipe_signals
+# Loading work.set_vars
+# Loading work.int_resolve
+# Loading work.resolve_address
+# Loading work.dual_port_rom
+# Loading work.single_port_rom
+# Loading work.interpolator
+# Loading work.adjust
+# Loading work.fixed32_to_fp32
+# Loading work.CLZ_32bits
+# Loading work.priority_encoder_4b
+# Loading work.BNE
+# Loading work.mux_282
+do address_tb.do
+# ** Error: Missing or invalid install path
+# Executing ONERROR command at macro ./address_tb.do line 2
+# ** UI-Msg: (vish-4014) No objects found matching '/address_tb/_core/_int_resolve/addr_exp'.
+# Executing ONERROR command at macro ./address_tb.do line 32
+# ** UI-Msg: (vish-4014) No objects found matching '/address_tb/_core/_resolve_address/msb'.
+# Executing ONERROR command at macro ./address_tb.do line 33
+# ** UI-Msg: (vish-4014) No objects found matching '/address_tb/_core/address'.
+# Executing ONERROR command at macro ./address_tb.do line 34
+# ** UI-Msg: (vish-4014) No objects found matching '/address_tb/_core/_single_port_rom/addr'.
+# Executing ONERROR command at macro ./address_tb.do line 40
+# ** UI-Msg: (vish-4014) No objects found matching '/address_tb/_core/_single_port_rom/q'.
+# Executing ONERROR command at macro ./address_tb.do line 41
+# ** UI-Msg: (vish-4014) No objects found matching '/address_tb/_core/_dual_port_rom/addr_a'.
+# Executing ONERROR command at macro ./address_tb.do line 42
+# ** UI-Msg: (vish-4014) No objects found matching '/address_tb/_core/_dual_port_rom/addr_b'.
+# Executing ONERROR command at macro ./address_tb.do line 43
+# ** UI-Msg: (vish-4014) No objects found matching '/address_tb/_core/_dual_port_rom/q_a'.
+# Executing ONERROR command at macro ./address_tb.do line 44
+# ** UI-Msg: (vish-4014) No objects found matching '/address_tb/_core/_dual_port_rom/q_b'.
+# Executing ONERROR command at macro ./address_tb.do line 45
+# ** UI-Msg: (vish-4014) No objects found matching '/address_tb/_core/_interpolator/interpolation'.
+# Executing ONERROR command at macro ./address_tb.do line 46
+# ** UI-Msg: (vish-4014) No objects found matching '/address_tb/_core/_interpolator/reg_d1'.
+# Executing ONERROR command at macro ./address_tb.do line 47
+# ** UI-Msg: (vish-4014) No objects found matching '/address_tb/_core/_interpolator/reg_d2'.
+# Executing ONERROR command at macro ./address_tb.do line 48
+# ** UI-Msg: (vish-4014) No objects found matching '/address_tb/_core/_interpolator/reg_diff_1'.
+# Executing ONERROR command at macro ./address_tb.do line 49
+# ** UI-Msg: (vish-4014) No objects found matching '/address_tb/_core/_interpolator/reg_diff_2'.
+# Executing ONERROR command at macro ./address_tb.do line 50
+# ** UI-Msg: (vish-4014) No objects found matching '/address_tb/_core/_adjust/multp'.
+# Executing ONERROR command at macro ./address_tb.do line 51
+# ** UI-Msg: (vish-4014) No objects found matching '/address_tb/_core/fxd_exp'.
+# Executing ONERROR command at macro ./address_tb.do line 52
+# ** UI-Msg: (vish-4014) No objects found matching '/address_tb/_core/_adjust/mode'.
+# Executing ONERROR command at macro ./address_tb.do line 53
+# ** UI-Msg: (vish-4014) No objects found matching '/address_tb/_core/_adjust/adder'.
+# Executing ONERROR command at macro ./address_tb.do line 54
+# ** UI-Msg: (vish-4014) No objects found matching '/address_tb/_core/_adjust/interpolation'.
+# Executing ONERROR command at macro ./address_tb.do line 55
+run
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Compile of addres_tb.sv failed with 1 errors.
+# Compile of core.v was successful with warnings.
+# Compile of dual_port_rom.v was successful.
+# Compile of fixed32_to_fp32.v was successful with warnings.
+# Compile of pipe_signals.v was successful with warnings.
+# 5 compiles, 1 failed with 1 error.
+# Compile of addres_tb.sv was successful.
+# Compile of core.v was successful with warnings.
+# Compile of dual_port_rom.v was successful.
+# Compile of fixed32_to_fp32.v was successful with warnings.
+# Compile of pipe_signals.v was successful with warnings.
+# 5 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.address_tb
+# Loading work.core
+# Loading work.pipe_signals
+# Loading work.set_vars
+# Loading work.int_resolve
+# Loading work.resolve_address
+# Loading work.dual_port_rom
+# Loading work.interpolator
+# Loading work.adjust
+# Loading work.fixed32_to_fp32
+# Loading work.CLZ_32bits
+# Loading work.priority_encoder_4b
+# Loading work.BNE
+# Loading work.mux_282
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 'mode'. The port definition is at: /home/diegotf/Escritorio/Addressing update/Adressing/Addressing/verilog/Act_Functions/core.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /address_tb/core_ File: /home/diegotf/Escritorio/Addressing update/Adressing/Addressing/verilog/Act_Functions/simulation/addres_tb.sv Line: 108
+# Compile of addres_tb.sv was successful.
+# Compile of core.v was successful with warnings.
+# Compile of dual_port_rom.v was successful.
+# Compile of fixed32_to_fp32.v was successful with warnings.
+# Compile of massive_func.v was successful.
+# Compile of pipe_signals.v was successful with warnings.
+# Compile of single_port_rom.v was successful.
+# 7 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.address_tb
+# Loading work.core
+# Loading work.pipe_signals
+# Loading work.set_vars
+# Loading work.resolve_address
+# Loading work.dual_port_rom
+# Loading work.interpolator
+# Loading work.adjust
+# Loading work.fixed32_to_fp32
+# Loading work.CLZ_32bits
+# Loading work.priority_encoder_4b
+# Loading work.BNE
+# Loading work.mux_282
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 'mode_reg_5'. The port definition is at: /home/diegotf/Escritorio/Addressing update 2/Adressing/Addressing/verilog/Act_Functions/pipe_signals.v(13).
+#    Time: 0 ps  Iteration: 0  Instance: /address_tb/core_/_pipe_signals File: /home/diegotf/Escritorio/Addressing update 2/Adressing/Addressing/verilog/Act_Functions/core.v Line: 32
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 'mode_reg_11'. The port definition is at: /home/diegotf/Escritorio/Addressing update 2/Adressing/Addressing/verilog/Act_Functions/pipe_signals.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /address_tb/core_/_pipe_signals File: /home/diegotf/Escritorio/Addressing update 2/Adressing/Addressing/verilog/Act_Functions/core.v Line: 32
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '_resolve_address'.  Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /address_tb/core_/_resolve_address File: /home/diegotf/Escritorio/Addressing update 2/Adressing/Addressing/verilog/Act_Functions/core.v Line: 42
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (11) for port 'shift_exp'. The port definition is at: /home/diegotf/Escritorio/Addressing update 2/Adressing/Addressing/verilog/Act_Functions/core.v(180).
+#    Time: 0 ps  Iteration: 0  Instance: /address_tb/core_/_resolve_address File: /home/diegotf/Escritorio/Addressing update 2/Adressing/Addressing/verilog/Act_Functions/core.v Line: 42
+# ** Warning: (vsim-3015) [PCDPC] - Port size (11) does not match connection size (4) for port 'address'. The port definition is at: /home/diegotf/Escritorio/Addressing update 2/Adressing/Addressing/verilog/Act_Functions/core.v(181).
+#    Time: 0 ps  Iteration: 0  Instance: /address_tb/core_/_resolve_address File: /home/diegotf/Escritorio/Addressing update 2/Adressing/Addressing/verilog/Act_Functions/core.v Line: 42
+# ** Warning: (vsim-3722) /home/diegotf/Escritorio/Addressing update 2/Adressing/Addressing/verilog/Act_Functions/core.v(42): [TFMPC] - Missing connection for port 'msb'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (21) does not match connection size (19) for port 'data_a'. The port definition is at: /home/diegotf/Escritorio/Addressing update 2/Adressing/Addressing/verilog/Act_Functions/core.v(122).
+#    Time: 0 ps  Iteration: 0  Instance: /address_tb/core_/_interpolator File: /home/diegotf/Escritorio/Addressing update 2/Adressing/Addressing/verilog/Act_Functions/core.v Line: 48
+# ** Warning: (vsim-3015) [PCDPC] - Port size (21) does not match connection size (19) for port 'data_b'. The port definition is at: /home/diegotf/Escritorio/Addressing update 2/Adressing/Addressing/verilog/Act_Functions/core.v(123).
+#    Time: 0 ps  Iteration: 0  Instance: /address_tb/core_/_interpolator File: /home/diegotf/Escritorio/Addressing update 2/Adressing/Addressing/verilog/Act_Functions/core.v Line: 48
+# Compile of addres_tb.sv was successful.
+# Compile of core.v was successful with warnings.
+# Compile of dual_port_rom.v was successful.
+# Compile of fixed32_to_fp32.v was successful with warnings.
+# Compile of massive_func.v was successful.
+# Compile of pipe_signals.v was successful with warnings.
+# Compile of single_port_rom.v was successful.
+# 7 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.address_tb
+# Loading work.core
+# Loading work.pipe_signals
+# Loading work.set_vars
+# Loading work.resolve_address
+# Loading work.dual_port_rom
+# Loading work.interpolator
+# Loading work.adjust
+# Loading work.fixed32_to_fp32
+# Loading work.CLZ_32bits
+# Loading work.priority_encoder_4b
+# Loading work.BNE
+# Loading work.mux_282
+# ** Warning: (vsim-3015) [PCDPC] - Port size (21) does not match connection size (19) for port 'data_a'. The port definition is at: /home/diegotf/Escritorio/Addressing update 2/Adressing/Addressing/verilog/Act_Functions/core.v(122).
+#    Time: 0 ps  Iteration: 0  Instance: /address_tb/core_/_interpolator File: /home/diegotf/Escritorio/Addressing update 2/Adressing/Addressing/verilog/Act_Functions/core.v Line: 48
+# ** Warning: (vsim-3015) [PCDPC] - Port size (21) does not match connection size (19) for port 'data_b'. The port definition is at: /home/diegotf/Escritorio/Addressing update 2/Adressing/Addressing/verilog/Act_Functions/core.v(123).
+#    Time: 0 ps  Iteration: 0  Instance: /address_tb/core_/_interpolator File: /home/diegotf/Escritorio/Addressing update 2/Adressing/Addressing/verilog/Act_Functions/core.v Line: 48
+# Compile of addres_tb.sv was successful.
+# Compile of core.v was successful with warnings.
+# Compile of dual_port_rom.v was successful.
+# Compile of fixed32_to_fp32.v was successful with warnings.
+# Compile of massive_func.v was successful.
+# Compile of pipe_signals.v was successful with warnings.
+# Compile of single_port_rom.v was successful.
+# 7 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.address_tb
+# Loading work.core
+# Loading work.pipe_signals
+# Loading work.set_vars
+# Loading work.resolve_address
+# Loading work.dual_port_rom
+# Loading work.interpolator
+# Loading work.adjust
+# Loading work.fixed32_to_fp32
+# Loading work.CLZ_32bits
+# Loading work.priority_encoder_4b
+# Loading work.BNE
+# Loading work.mux_282
+# ** Warning: (vsim-3015) [PCDPC] - Port size (20) does not match connection size (19) for port 'data_a'. The port definition is at: /home/diegotf/Escritorio/Addressing update 2/Adressing/Addressing/verilog/Act_Functions/core.v(122).
+#    Time: 0 ps  Iteration: 0  Instance: /address_tb/core_/_interpolator File: /home/diegotf/Escritorio/Addressing update 2/Adressing/Addressing/verilog/Act_Functions/core.v Line: 48
+# ** Warning: (vsim-3015) [PCDPC] - Port size (20) does not match connection size (19) for port 'data_b'. The port definition is at: /home/diegotf/Escritorio/Addressing update 2/Adressing/Addressing/verilog/Act_Functions/core.v(123).
+#    Time: 0 ps  Iteration: 0  Instance: /address_tb/core_/_interpolator File: /home/diegotf/Escritorio/Addressing update 2/Adressing/Addressing/verilog/Act_Functions/core.v Line: 48
+# Compile of addres_tb.sv was successful.
+# Compile of core.v was successful with warnings.
+# Compile of dual_port_rom.v was successful.
+# Compile of fixed32_to_fp32.v was successful with warnings.
+# Compile of massive_func.v was successful.
+# Compile of pipe_signals.v was successful with warnings.
+# Compile of single_port_rom.v was successful.
+# 7 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.address_tb
+# Loading work.core
+# Loading work.pipe_signals
+# Loading work.set_vars
+# Loading work.resolve_address
+# Loading work.dual_port_rom
+# Loading work.interpolator
+# Loading work.adjust
+# Loading work.fixed32_to_fp32
+# Loading work.CLZ_32bits
+# Loading work.priority_encoder_4b
+# Loading work.BNE
+# Loading work.mux_282
+# Compile of addres_tb.sv was successful.
+# Compile of core.v was successful with warnings.
+# Compile of dual_port_rom.v was successful.
+# Compile of fixed32_to_fp32.v was successful with warnings.
+# Compile of massive_func.v was successful.
+# Compile of pipe_signals.v was successful with warnings.
+# Compile of single_port_rom.v was successful.
+# 7 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.address_tb
+# Loading work.core
+# Loading work.pipe_signals
+# Loading work.set_vars
+# Loading work.resolve_address
+# Loading work.dual_port_rom
+# Loading work.interpolator
+# Loading work.adjust
+# Loading work.fixed32_to_fp32
+# Loading work.CLZ_32bits
+# Loading work.priority_encoder_4b
+# Loading work.BNE
+# Loading work.mux_282
+run
+# ** Warning: (vsim-PLI-3406) Too many digits (20) in data on line 1 of file "dual_port_rom_init.txt". (Max is 19.)    : /home/diegotf/Escritorio/Addressing update 2/Adressing/Addressing/verilog/Act_Functions/dual_port_rom.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /address_tb/core_/_dual_port_rom
+run
+run
+run
+add wave -position insertpoint  \
+sim:/address_tb/core_/address
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run
+# ** Warning: (vsim-PLI-3406) Too many digits (20) in data on line 1 of file "dual_port_rom_init.txt". (Max is 19.)    : /home/diegotf/Escritorio/Addressing update 2/Adressing/Addressing/verilog/Act_Functions/dual_port_rom.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /address_tb/core_/_dual_port_rom
+add wave -position insertpoint  \
+sim:/address_tb/core_/interpolation
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run
+# ** Warning: (vsim-PLI-3406) Too many digits (20) in data on line 1 of file "dual_port_rom_init.txt". (Max is 19.)    : /home/diegotf/Escritorio/Addressing update 2/Adressing/Addressing/verilog/Act_Functions/dual_port_rom.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /address_tb/core_/_dual_port_rom
+run
+add wave -position insertpoint  \
+sim:/address_tb/core_/data_a \
+sim:/address_tb/core_/data_b
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run
+# ** Warning: (vsim-PLI-3406) Too many digits (20) in data on line 1 of file "dual_port_rom_init.txt". (Max is 19.)    : /home/diegotf/Escritorio/Addressing update 2/Adressing/Addressing/verilog/Act_Functions/dual_port_rom.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /address_tb/core_/_dual_port_rom
+run
+# Compile of addres_tb.sv was successful.
+# Compile of core.v was successful with warnings.
+# Compile of dual_port_rom.v was successful.
+# Compile of fixed32_to_fp32.v was successful with warnings.
+# Compile of massive_func.v was successful.
+# Compile of pipe_signals.v was successful with warnings.
+# Compile of single_port_rom.v was successful.
+# 7 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.address_tb
+# Loading work.core
+# Loading work.pipe_signals
+# Loading work.set_vars
+# Loading work.resolve_address
+# Loading work.dual_port_rom
+# Loading work.interpolator
+# Loading work.adjust
+# Loading work.fixed32_to_fp32
+# Loading work.CLZ_32bits
+# Loading work.priority_encoder_4b
+# Loading work.BNE
+# Loading work.mux_282
+run
+run
+run
+run
+run
+run
+run
+# Compile of addres_tb.sv was successful.
+# Compile of core.v was successful with warnings.
+# Compile of dual_port_rom.v was successful.
+# Compile of fixed32_to_fp32.v was successful with warnings.
+# Compile of massive_func.v was successful.
+# Compile of pipe_signals.v was successful with warnings.
+# Compile of single_port_rom.v was successful.
+# 7 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.address_tb
+# Loading work.core
+# Loading work.pipe_signals
+# Loading work.set_vars
+# Loading work.resolve_address
+# Loading work.dual_port_rom
+# Loading work.interpolator
+# Loading work.adjust
+# Loading work.fixed32_to_fp32
+# Loading work.CLZ_32bits
+# Loading work.priority_encoder_4b
+# Loading work.BNE
+# Loading work.mux_282
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of addres_tb.sv was successful.
+# Compile of core.v was successful with warnings.
+# Compile of dual_port_rom.v was successful.
+# Compile of fixed32_to_fp32.v was successful with warnings.
+# Compile of massive_func.v was successful.
+# Compile of pipe_signals.v was successful with warnings.
+# Compile of single_port_rom.v was successful.
+# 7 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.address_tb
+# Loading work.core
+# Loading work.pipe_signals
+# Loading work.set_vars
+# Loading work.resolve_address
+# Loading work.dual_port_rom
+# Loading work.interpolator
+# Loading work.adjust
+# Loading work.fixed32_to_fp32
+# Loading work.CLZ_32bits
+# Loading work.priority_encoder_4b
+# Loading work.BNE
+# Loading work.mux_282
+run
+restart -f
+run
+run
+# Compile of addres_tb.sv was successful.
+# Compile of core.v was successful with warnings.
+# Compile of dual_port_rom.v was successful.
+# Compile of fixed32_to_fp32.v was successful with warnings.
+# Compile of massive_func.v was successful.
+# Compile of pipe_signals.v was successful with warnings.
+# Compile of single_port_rom.v was successful.
+# 7 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.address_tb
+# Loading work.core
+# Loading work.pipe_signals
+# Loading work.set_vars
+# Loading work.resolve_address
+# Loading work.dual_port_rom
+# Loading work.interpolator
+# Loading work.adjust
+# Loading work.fixed32_to_fp32
+# Loading work.CLZ_32bits
+# Loading work.priority_encoder_4b
+# Loading work.BNE
+# Loading work.mux_282
+run
+run
+run
+run
+run
+run
+# Compile of addres_tb.sv was successful.
+# Compile of core.v was successful with warnings.
+# Compile of dual_port_rom.v was successful.
+# Compile of fixed32_to_fp32.v was successful with warnings.
+# Compile of massive_func.v was successful.
+# Compile of pipe_signals.v was successful with warnings.
+# Compile of single_port_rom.v was successful.
+# 7 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.address_tb
+# Loading work.core
+# Loading work.pipe_signals
+# Loading work.set_vars
+# Loading work.resolve_address
+# Loading work.dual_port_rom
+# Loading work.interpolator
+# Loading work.adjust
+# Loading work.fixed32_to_fp32
+# Loading work.CLZ_32bits
+# Loading work.priority_encoder_4b
+# Loading work.BNE
+# Loading work.mux_282
+run
+run
+run
+run
+# Compile of addres_tb.sv was successful.
+# Compile of core.v was successful with warnings.
+# Compile of dual_port_rom.v was successful.
+# Compile of fixed32_to_fp32.v was successful with warnings.
+# Compile of massive_func.v was successful.
+# Compile of pipe_signals.v was successful with warnings.
+# Compile of single_port_rom.v was successful.
+# 7 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.address_tb
+# Loading work.core
+# Loading work.pipe_signals
+# Loading work.set_vars
+# Loading work.resolve_address
+# Loading work.dual_port_rom
+# Loading work.interpolator
+# Loading work.adjust
+# Loading work.fixed32_to_fp32
+# Loading work.CLZ_32bits
+# Loading work.priority_encoder_4b
+# Loading work.BNE
+# Loading work.mux_282
+run
+run
+run
+run
+run
+run
+run
+# Compile of addres_tb.sv was successful.
+# Compile of core.v was successful with warnings.
+# Compile of dual_port_rom.v was successful.
+# Compile of fixed32_to_fp32.v was successful with warnings.
+# Compile of massive_func.v was successful.
+# Compile of pipe_signals.v was successful with warnings.
+# Compile of single_port_rom.v was successful.
+# 7 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.address_tb
+# Loading work.core
+# Loading work.pipe_signals
+# Loading work.set_vars
+# Loading work.resolve_address
+# Loading work.dual_port_rom
+# Loading work.interpolator
+# Loading work.adjust
+# Loading work.fixed32_to_fp32
+# Loading work.CLZ_32bits
+# Loading work.priority_encoder_4b
+# Loading work.BNE
+# Loading work.mux_282
+run
+run
+run
+# Compile of addres_tb.sv was successful.
+# Compile of core.v was successful with warnings.
+# Compile of dual_port_rom.v was successful.
+# Compile of fixed32_to_fp32.v was successful with warnings.
+# Compile of massive_func.v was successful.
+# Compile of pipe_signals.v was successful with warnings.
+# Compile of single_port_rom.v was successful.
+# 7 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.address_tb
+# Loading work.core
+# Loading work.pipe_signals
+# Loading work.set_vars
+# Loading work.resolve_address
+# Loading work.dual_port_rom
+# Loading work.interpolator
+# Loading work.adjust
+# Loading work.fixed32_to_fp32
+# Loading work.CLZ_32bits
+# Loading work.priority_encoder_4b
+# Loading work.BNE
+# Loading work.mux_282
+run
+run
+run
+run
+# End time: 00:21:32 on Mar 15,2021, Elapsed time: 1:48:29
+# Errors: 0, Warnings: 1

@@ -1,0 +1,49 @@
+
+module is_little
+(
+	input  clock,
+	input  resetn,
+	input  [1:0] mode,
+	input  [31:0] x,
+	output reg [31:0] y
+);
+
+	wire unsigned [4:0]  shift;
+	wire unsigned [27:0] mnts;
+	reg unsigned [27:0] mnts_reg;
+	
+	reg adder;
+	wire unsigned [31:0] y_;
+	wire little;
+	wire unsigned [2:0] GSR;
+	wire unsigned [7:0] exp;
+	
+	assign exp = ~mode[0] ? 9'b001111110 : {1'b0, x[30:23]};
+	assign shift = ~mode[0] ? 8'b10000000 - x[30:23] : 0;
+	assign mnts = ({1'b1, x[22:0]} >> shift);
+	assign GSR = mnts[2:0];
+	
+	always @(GSR) begin
+		case(GSR)
+			3'b0xx  : adder = 0;
+			3'b100  : adder = mnts[2];
+			3'b101  : adder = 1'b1;
+			3'b110  : adder = 1'b1;
+			3'b111  : adder = 1'b1;
+			default : adder = 0;
+		endcase
+	end
+	
+	assign y_ = {exp, (mnts_reg[22:0] + (adder && ~mode[0]))};
+	
+	always @(posedge clock) begin
+		if (resetn == 1'b0) begin
+			mnts_reg <= 0;
+			y <= 0;
+		end else begin
+			mnts_reg <= mnts;
+			y <= y_;
+		end
+	end
+
+endmodule

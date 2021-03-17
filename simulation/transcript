@@ -1,0 +1,1727 @@
+# Loading project Act_Functions
+# reading /root/intelFPGA/17.1/modelsim_ase/linuxaloem/../modelsim.ini
+# Loading project Act_Functions
+# Compile of addres_tb.sv was successful.
+# Compile of core.v was successful with warnings.
+# Compile of fixed32_to_fp32.v was successful with warnings.
+# Compile of pipe_signals.v was successful with warnings.
+# Compile of ROM1.v was successful.
+# Compile of ROM2.v was successful.
+# Compile of linear_out.v was successful.
+# Compile of regions.v was successful.
+# 8 compiles, 0 failed with no errors.
+# Compile of addres_tb.sv was successful.
+# Compile of core.v was successful with warnings.
+# Compile of fixed32_to_fp32.v was successful with warnings.
+# Compile of pipe_signals.v was successful with warnings.
+# Compile of ROM1.v was successful.
+# Compile of ROM2.v was successful.
+# Compile of linear_out.v was successful.
+# Compile of regions.v was successful.
+# Compile of regions_tb.sv failed with 3 errors.
+# 9 compiles, 1 failed with 3 errors.
+# Compile of addres_tb.sv was successful.
+# Compile of core.v was successful with warnings.
+# Compile of fixed32_to_fp32.v was successful with warnings.
+# Compile of pipe_signals.v was successful with warnings.
+# Compile of ROM1.v was successful.
+# Compile of ROM2.v was successful.
+# Compile of linear_out.v was successful.
+# Compile of regions.v was successful.
+# Compile of regions_tb.sv failed with 3 errors.
+# 9 compiles, 1 failed with 3 errors.
+# Compile of addres_tb.sv was successful.
+# Compile of core.v was successful with warnings.
+# Compile of fixed32_to_fp32.v was successful with warnings.
+# Compile of pipe_signals.v was successful with warnings.
+# Compile of ROM1.v was successful.
+# Compile of ROM2.v was successful.
+# Compile of linear_out.v was successful.
+# Compile of regions.v was successful.
+# Compile of regions_tb.sv failed with 3 errors.
+# 9 compiles, 1 failed with 3 errors.
+# Compile of addres_tb.sv was successful.
+# Compile of core.v was successful with warnings.
+# Compile of fixed32_to_fp32.v was successful with warnings.
+# Compile of pipe_signals.v was successful with warnings.
+# Compile of ROM1.v was successful.
+# Compile of ROM2.v was successful.
+# Compile of linear_out.v was successful.
+# Compile of regions.v was successful.
+# Compile of regions_tb.sv was successful.
+# 9 compiles, 0 failed with no errors.
+# Compile of addres_tb.sv was successful.
+# Compile of core.v was successful with warnings.
+# Compile of fixed32_to_fp32.v was successful with warnings.
+# Compile of pipe_signals.v was successful with warnings.
+# Compile of ROM1.v was successful.
+# Compile of ROM2.v was successful.
+# Compile of linear_out.v was successful.
+# Compile of regions.v was successful.
+# Compile of regions_tb.sv was successful.
+# 9 compiles, 0 failed with no errors.
+vsim work.regions_tb
+# vsim work.regions_tb 
+# Start time: 12:02:51 on Mar 17,2021
+# Loading sv_std.std
+# Loading work.regions_tb
+# Loading work.regions
+add wave -position insertpoint  \
+sim:/regions_tb/regions
+add wave -position insertpoint  \
+sim:/regions_tb/clock \
+sim:/regions_tb/resetn
+add wave -position insertpoint  \
+sim:/regions_tb/value_w
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf /home/diegotf/Escritorio/Addressings/Tanh/simulation/regions_tb.do
+restart -f
+run
+# Compile of addres_tb.sv was successful.
+# Compile of core.v was successful with warnings.
+# Compile of fixed32_to_fp32.v was successful with warnings.
+# Compile of pipe_signals.v was successful with warnings.
+# Compile of ROM1.v was successful.
+# Compile of ROM2.v was successful.
+# Compile of linear_out.v was successful.
+# Compile of regions.v was successful.
+# Compile of regions_tb.sv was successful.
+# 9 compiles, 0 failed with no errors.
+# Compile of addres_tb.sv was successful.
+# Compile of core.v was successful with warnings.
+# Compile of fixed32_to_fp32.v was successful with warnings.
+# Compile of pipe_signals.v was successful with warnings.
+# Compile of ROM1.v was successful.
+# Compile of ROM2.v was successful.
+# Compile of linear_out.v was successful.
+# Compile of regions.v was successful.
+# Compile of regions_tb.sv was successful.
+# 9 compiles, 0 failed with no errors.
+restart -f
+# Loading work.regions_tb
+# Loading work.regions
+run
+run
+run
+run
+run
+run
+run
+run
+add wave -position insertpoint  \
+sim:/regions_tb/region
+restart -f
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of addres_tb.sv was successful.
+# Compile of core.v was successful with warnings.
+# Compile of fixed32_to_fp32.v was successful with warnings.
+# Compile of pipe_signals.v was successful with warnings.
+# Compile of ROM1.v was successful.
+# Compile of ROM2.v was successful.
+# Compile of linear_out.v was successful.
+# Compile of regions.v was successful.
+# Compile of regions_tb.sv was successful.
+# 9 compiles, 0 failed with no errors.
+restart -f
+# Loading work.regions_tb
+# Loading work.regions
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of addres_tb.sv was successful.
+# Compile of core.v was successful with warnings.
+# Compile of fixed32_to_fp32.v was successful with warnings.
+# Compile of pipe_signals.v was successful with warnings.
+# Compile of ROM1.v was successful.
+# Compile of ROM2.v was successful.
+# Compile of linear_out.v was successful.
+# Compile of regions.v was successful.
+# Compile of regions_tb.sv was successful.
+# 9 compiles, 0 failed with no errors.
+add wave -position insertpoint  \
+sim:/regions_tb/gold
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf /home/diegotf/Escritorio/Addressings/Tanh/simulation/regions_tb.do
+restart -f
+# Loading work.regions_tb
+# Loading work.regions
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart -f
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart -f
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of addres_tb.sv was successful.
+# Compile of core.v was successful with warnings.
+# Compile of fixed32_to_fp32.v was successful with warnings.
+# Compile of pipe_signals.v was successful with warnings.
+# Compile of ROM1.v was successful.
+# Compile of ROM2.v was successful.
+# Compile of linear_out.v was successful.
+# Compile of regions.v was successful.
+# Compile of regions_tb.sv was successful.
+# 9 compiles, 0 failed with no errors.
+restart -f
+# Loading work.regions_tb
+# Loading work.regions
+# Loading work.linear_out
+add wave -position insertpoint  \
+sim:/regions_tb/fpga
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf /home/diegotf/Escritorio/Addressings/Tanh/simulation/regions_tb.do
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart -f
+run
+run
+restart -f
+run
+run
+run
+run
+# Compile of addres_tb.sv was successful.
+# Compile of core.v was successful with warnings.
+# Compile of fixed32_to_fp32.v was successful with warnings.
+# Compile of pipe_signals.v was successful with warnings.
+# Compile of ROM1.v was successful.
+# Compile of ROM2.v was successful.
+# Compile of linear_out.v was successful.
+# Compile of regions.v was successful.
+# Compile of regions_tb.sv was successful.
+# 9 compiles, 0 failed with no errors.
+restart -f
+# Loading work.regions_tb
+# Loading work.regions
+# Loading work.linear_out
+run
+run
+run
+# Compile of addres_tb.sv was successful.
+# Compile of core.v was successful with warnings.
+# Compile of fixed32_to_fp32.v was successful with warnings.
+# Compile of pipe_signals.v was successful with warnings.
+# Compile of ROM1.v was successful.
+# Compile of ROM2.v was successful.
+# Compile of linear_out.v was successful.
+# Compile of regions.v was successful.
+# Compile of regions_tb.sv was successful.
+# 9 compiles, 0 failed with no errors.
+restart -f
+# Loading work.regions_tb
+# Loading work.regions
+# Loading work.linear_out
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of addres_tb.sv was successful.
+# Compile of core.v was successful with warnings.
+# Compile of fixed32_to_fp32.v was successful with warnings.
+# Compile of pipe_signals.v was successful with warnings.
+# Compile of ROM1.v was successful.
+# Compile of ROM2.v was successful.
+# Compile of linear_out.v was successful.
+# Compile of regions.v was successful.
+# Compile of regions_tb.sv was successful.
+# 9 compiles, 0 failed with no errors.
+restart -f
+# Loading work.regions_tb
+# Loading work.regions
+# Loading work.linear_out
+run
+run
+run
+run
+run
+run
+run
+# Compile of addres_tb.sv was successful.
+# Compile of core.v was successful with warnings.
+# Compile of fixed32_to_fp32.v was successful with warnings.
+# Compile of pipe_signals.v was successful with warnings.
+# Compile of ROM1.v was successful.
+# Compile of ROM2.v was successful.
+# Compile of linear_out.v was successful.
+# Compile of regions.v was successful.
+# Compile of regions_tb.sv was successful.
+# 9 compiles, 0 failed with no errors.
+# Compile of addres_tb.sv was successful.
+# Compile of core.v was successful with warnings.
+# Compile of fixed32_to_fp32.v was successful with warnings.
+# Compile of pipe_signals.v was successful with warnings.
+# Compile of ROM1.v was successful.
+# Compile of ROM2.v was successful.
+# Compile of linear_out.v was successful.
+# Compile of regions.v was successful.
+# Compile of regions_tb.sv was successful.
+# 9 compiles, 0 failed with no errors.
+restart -f
+# Loading work.regions_tb
+# Loading work.regions
+# Loading work.linear_out
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of addres_tb.sv was successful.
+# Compile of core.v was successful with warnings.
+# Compile of fixed32_to_fp32.v was successful with warnings.
+# Compile of pipe_signals.v was successful with warnings.
+# Compile of ROM1.v was successful.
+# Compile of ROM2.v was successful.
+# Compile of linear_out.v was successful.
+# Compile of regions.v was successful.
+# Compile of regions_tb.sv was successful.
+# 9 compiles, 0 failed with no errors.
+restart -f
+# Loading work.regions_tb
+# Loading work.regions
+# Loading work.linear_out
+run
+run
+run
+run
+run
+run
+# Compile of addres_tb.sv was successful.
+# Compile of core.v was successful with warnings.
+# Compile of fixed32_to_fp32.v was successful with warnings.
+# Compile of pipe_signals.v was successful with warnings.
+# Compile of ROM1.v was successful.
+# Compile of ROM2.v was successful.
+# Compile of linear_out.v was successful.
+# Compile of regions.v was successful.
+# Compile of regions_tb.sv was successful.
+# 9 compiles, 0 failed with no errors.
+restart -f
+# Loading work.regions_tb
+# Loading work.regions
+# Loading work.linear_out
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf /home/diegotf/Escritorio/Addressings/Tanh/simulation/regions_tb.do
+# Compile of addres_tb.sv was successful.
+# Compile of core.v was successful with warnings.
+# Compile of fixed32_to_fp32.v was successful with warnings.
+# Compile of pipe_signals.v was successful with warnings.
+# Compile of ROM1.v was successful.
+# Compile of ROM2.v was successful.
+# Compile of linear_out.v was successful.
+# Compile of regions.v was successful.
+# Compile of regions_tb.sv was successful.
+# 9 compiles, 0 failed with no errors.
+restart -f
+# Loading work.regions_tb
+# Loading work.regions
+# Loading work.linear_out
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of addres_tb.sv was successful.
+# Compile of core.v was successful with warnings.
+# Compile of fixed32_to_fp32.v was successful with warnings.
+# Compile of pipe_signals.v was successful with warnings.
+# Compile of ROM1.v was successful.
+# Compile of ROM2.v was successful.
+# Compile of linear_out.v was successful.
+# Compile of regions.v was successful.
+# Compile of regions_tb.sv was successful.
+# 9 compiles, 0 failed with no errors.
+restart -f
+# Loading work.regions_tb
+# Loading work.regions
+# Loading work.linear_out
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of addres_tb.sv was successful.
+# Compile of core.v was successful with warnings.
+# Compile of fixed32_to_fp32.v was successful with warnings.
+# Compile of pipe_signals.v was successful with warnings.
+# Compile of ROM1.v was successful.
+# Compile of ROM2.v was successful.
+# Compile of linear_out.v was successful.
+# Compile of regions.v was successful.
+# Compile of regions_tb.sv was successful.
+# 9 compiles, 0 failed with no errors.
+restart -f
+# Loading work.regions_tb
+# Loading work.regions
+# Loading work.linear_out
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart -f
+# Compile of addres_tb.sv was successful.
+# Compile of core.v was successful with warnings.
+# Compile of fixed32_to_fp32.v was successful with warnings.
+# Compile of pipe_signals.v was successful with warnings.
+# Compile of ROM1.v was successful.
+# Compile of ROM2.v was successful.
+# Compile of linear_out.v was successful.
+# Compile of regions.v was successful.
+# Compile of regions_tb.sv was successful.
+# 9 compiles, 0 failed with no errors.
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of addres_tb.sv was successful.
+# Compile of core.v was successful with warnings.
+# Compile of fixed32_to_fp32.v was successful with warnings.
+# Compile of pipe_signals.v was successful with warnings.
+# Compile of ROM1.v was successful.
+# Compile of ROM2.v was successful.
+# Compile of linear_out.v failed with 1 errors.
+# Compile of regions.v was successful.
+# Compile of regions_tb.sv was successful.
+# 9 compiles, 1 failed with 1 error.
+# Compile of addres_tb.sv was successful.
+# Compile of core.v was successful with warnings.
+# Compile of fixed32_to_fp32.v was successful with warnings.
+# Compile of pipe_signals.v was successful with warnings.
+# Compile of ROM1.v was successful.
+# Compile of ROM2.v was successful.
+# Compile of linear_out.v failed with 1 errors.
+# Compile of regions.v was successful.
+# Compile of regions_tb.sv was successful.
+# 9 compiles, 1 failed with 1 error.
+# Compile of addres_tb.sv was successful.
+# Compile of core.v was successful with warnings.
+# Compile of fixed32_to_fp32.v was successful with warnings.
+# Compile of pipe_signals.v was successful with warnings.
+# Compile of ROM1.v was successful.
+# Compile of ROM2.v was successful.
+# Compile of linear_out.v failed with 1 errors.
+# Compile of regions.v was successful.
+# Compile of regions_tb.sv was successful.
+# 9 compiles, 1 failed with 1 error.
+# Compile of addres_tb.sv was successful.
+# Compile of core.v was successful with warnings.
+# Compile of fixed32_to_fp32.v was successful with warnings.
+# Compile of pipe_signals.v was successful with warnings.
+# Compile of ROM1.v was successful.
+# Compile of ROM2.v was successful.
+# Compile of linear_out.v was successful.
+# Compile of regions.v was successful.
+# Compile of regions_tb.sv was successful.
+# 9 compiles, 0 failed with no errors.
+restart -f
+# Loading work.regions_tb
+# Loading work.regions
+# Loading work.linear_out
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of addres_tb.sv was successful.
+# Compile of core.v was successful with warnings.
+# Compile of fixed32_to_fp32.v was successful with warnings.
+# Compile of pipe_signals.v was successful with warnings.
+# Compile of ROM1.v was successful.
+# Compile of ROM2.v was successful.
+# Compile of linear_out.v was successful.
+# Compile of regions.v was successful.
+# Compile of regions_tb.sv was successful.
+# 9 compiles, 0 failed with no errors.
+restart -f
+# Loading work.regions_tb
+# Loading work.regions
+# Loading work.linear_out
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of addres_tb.sv was successful.
+# Compile of core.v was successful with warnings.
+# Compile of fixed32_to_fp32.v was successful with warnings.
+# Compile of pipe_signals.v was successful with warnings.
+# Compile of ROM1.v was successful.
+# Compile of ROM2.v was successful.
+# Compile of linear_out.v was successful.
+# Compile of regions.v was successful.
+# Compile of regions_tb.sv was successful.
+# 9 compiles, 0 failed with no errors.
+restart -f
+# Loading work.regions_tb
+# Loading work.regions
+# Loading work.linear_out
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart -f
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf /home/diegotf/Escritorio/Addressings/Tanh/simulation/regions_tb.do
+vsim work.address_tb
+# End time: 14:38:34 on Mar 17,2021, Elapsed time: 2:35:43
+# Errors: 0, Warnings: 0
+# vsim work.address_tb 
+# Start time: 14:38:35 on Mar 17,2021
+# Loading sv_std.std
+# Loading work.address_tb
+# Loading work.core
+# Loading work.pipe_signals
+# Loading work.address_resolver
+# Loading work.ROM1
+# Loading work.ROM2
+# Loading work.interpolator
+# Loading work.fixed32_to_fp32
+# Loading work.CLZ_32bits
+# Loading work.priority_encoder_4b
+# Loading work.BNE
+# Loading work.mux_282
+# Compile of addres_tb.sv was successful.
+# Compile of core.v was successful with warnings.
+# Compile of fixed32_to_fp32.v was successful with warnings.
+# Compile of pipe_signals.v was successful with warnings.
+# Compile of ROM1.v was successful.
+# Compile of ROM2.v was successful.
+# Compile of linear_out.v was successful.
+# Compile of regions.v was successful.
+# Compile of regions_tb.sv was successful.
+# 9 compiles, 0 failed with no errors.
+# Compile of addres_tb.sv was successful.
+# Compile of core.v was successful with warnings.
+# Compile of fixed32_to_fp32.v was successful with warnings.
+# Compile of pipe_signals.v was successful with warnings.
+# Compile of ROM1.v was successful.
+# Compile of ROM2.v was successful.
+# Compile of linear_out.v was successful.
+# Compile of regions.v was successful.
+# Compile of regions_tb.sv was successful.
+# 9 compiles, 0 failed with no errors.
+# Load canceled
+do address_tb.do
+# ** Error: Missing or invalid install path
+# Executing ONERROR command at macro ./address_tb.do line 28
+# ** Error: (vish-4014) No objects found matching '/address_tb/core_/_resolve_address/Exponent'.
+# Executing ONERROR command at macro ./address_tb.do line 34
+# ** Error: (vish-4014) No objects found matching '/address_tb/core_/_resolve_address/x'.
+# Executing ONERROR command at macro ./address_tb.do line 35
+# ** Error: (vish-4014) No objects found matching '/address_tb/core_/_resolve_address/shift'.
+# Executing ONERROR command at macro ./address_tb.do line 36
+# ** Error: (vish-4014) No objects found matching '/address_tb/core_/_resolve_address/msb'.
+# Executing ONERROR command at macro ./address_tb.do line 37
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart -f
+# Loading work.address_tb
+# Loading work.core
+# Loading work.pipe_signals
+# Loading work.address_resolver
+# Loading work.ROM1
+# Loading work.ROM2
+# Loading work.interpolator
+# Loading work.fixed32_to_fp32
+# Loading work.CLZ_32bits
+# Loading work.priority_encoder_4b
+# Loading work.BNE
+# Loading work.mux_282
+# Compile of addres_tb.sv was successful.
+# Compile of core.v was successful with warnings.
+# Compile of fixed32_to_fp32.v failed with 1 errors.
+# Compile of pipe_signals.v was successful with warnings.
+# Compile of ROM1.v was successful.
+# Compile of ROM2.v was successful.
+# Compile of linear_out.v was successful.
+# Compile of regions.v was successful.
+# Compile of regions_tb.sv was successful.
+# 9 compiles, 1 failed with 1 error.
+# Compile of addres_tb.sv was successful.
+# Compile of core.v was successful with warnings.
+# Compile of fixed32_to_fp32.v was successful with warnings.
+# Compile of pipe_signals.v was successful with warnings.
+# Compile of ROM1.v was successful.
+# Compile of ROM2.v was successful.
+# Compile of linear_out.v was successful.
+# Compile of regions.v was successful.
+# Compile of regions_tb.sv was successful.
+# 9 compiles, 0 failed with no errors.
+restart -f
+# Loading work.address_tb
+# Loading work.core
+# Loading work.pipe_signals
+# Loading work.address_resolver
+# Loading work.ROM1
+# Loading work.ROM2
+# Loading work.interpolator
+# Loading work.fixed32_to_fp32
+# Loading work.CLZ_32bits
+# Loading work.priority_encoder_4b
+# Loading work.BNE
+# Loading work.mux_282
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart -f
+# Compile of addres_tb.sv was successful.
+# Compile of core.v was successful with warnings.
+# Compile of fixed32_to_fp32.v was successful with warnings.
+# Compile of pipe_signals.v was successful with warnings.
+# Compile of ROM1.v was successful.
+# Compile of ROM2.v was successful.
+# Compile of linear_out.v was successful.
+# Compile of regions.v was successful.
+# Compile of regions_tb.sv was successful.
+# 9 compiles, 0 failed with no errors.
+restart -f
+# Loading work.address_tb
+# Loading work.core
+# Loading work.pipe_signals
+# Loading work.address_resolver
+# Loading work.ROM1
+# Loading work.ROM2
+# Loading work.interpolator
+# Loading work.fixed32_to_fp32
+# Loading work.CLZ_32bits
+# Loading work.priority_encoder_4b
+# Loading work.BNE
+# Loading work.mux_282
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of addres_tb.sv was successful.
+# Compile of core.v was successful with warnings.
+# Compile of fixed32_to_fp32.v was successful with warnings.
+# Compile of pipe_signals.v was successful with warnings.
+# Compile of ROM1.v was successful.
+# Compile of ROM2.v was successful.
+# Compile of linear_out.v was successful.
+# Compile of regions.v was successful.
+# Compile of regions_tb.sv was successful.
+# 9 compiles, 0 failed with no errors.
+restart -f
+# Loading work.address_tb
+# Loading work.core
+# Loading work.pipe_signals
+# Loading work.address_resolver
+# Loading work.ROM1
+# Loading work.ROM2
+# Loading work.interpolator
+# Loading work.fixed32_to_fp32
+# Loading work.CLZ_32bits
+# Loading work.priority_encoder_4b
+# Loading work.BNE
+# Loading work.mux_282
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of addres_tb.sv was successful.
+# Compile of core.v was successful with warnings.
+# Compile of fixed32_to_fp32.v was successful with warnings.
+# Compile of pipe_signals.v was successful with warnings.
+# Compile of ROM1.v was successful.
+# Compile of ROM2.v was successful.
+# Compile of linear_out.v was successful.
+# Compile of regions.v was successful.
+# Compile of regions_tb.sv was successful.
+# 9 compiles, 0 failed with no errors.
+restart -f
+# Loading work.address_tb
+# Loading work.core
+# Loading work.pipe_signals
+# Loading work.address_resolver
+# Loading work.ROM1
+# Loading work.ROM2
+# Loading work.interpolator
+# Loading work.fixed32_to_fp32
+# Loading work.CLZ_32bits
+# Loading work.priority_encoder_4b
+# Loading work.BNE
+# Loading work.mux_282
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of addres_tb.sv was successful.
+# Compile of core.v was successful with warnings.
+# Compile of fixed32_to_fp32.v was successful with warnings.
+# Compile of pipe_signals.v was successful with warnings.
+# Compile of ROM1.v was successful.
+# Compile of ROM2.v was successful.
+# Compile of linear_out.v was successful.
+# Compile of regions.v was successful.
+# Compile of regions_tb.sv was successful.
+# 9 compiles, 0 failed with no errors.
+restart -f
+# Loading work.address_tb
+# Loading work.core
+# Loading work.pipe_signals
+# Loading work.address_resolver
+# Loading work.ROM1
+# Loading work.ROM2
+# Loading work.interpolator
+# Loading work.fixed32_to_fp32
+# Loading work.CLZ_32bits
+# Loading work.priority_encoder_4b
+# Loading work.BNE
+# Loading work.mux_282
+# ** Warning: (vsim-3015) /home/diegotf/Escritorio/Addressings/Tanh/core.v(31): [PCDPC] - Port size (11) does not match connection size (10) for port 'address'. The port definition is at: /home/diegotf/Escritorio/Addressings/Tanh/pipe_signals.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /address_tb/core_/_pipe_signals File: /home/diegotf/Escritorio/Addressings/Tanh/pipe_signals.v
+# ** Warning: (vsim-3015) /home/diegotf/Escritorio/Addressings/Tanh/core.v(37): [PCDPC] - Port size (11) does not match connection size (10) for port 'address'. The port definition is at: /home/diegotf/Escritorio/Addressings/Tanh/core.v(122).
+#    Time: 0 ps  Iteration: 0  Instance: /address_tb/core_/_address_resolver File: /home/diegotf/Escritorio/Addressings/Tanh/core.v
+# Compile of addres_tb.sv was successful.
+# Compile of core.v was successful with warnings.
+# Compile of fixed32_to_fp32.v was successful with warnings.
+# Compile of pipe_signals.v was successful with warnings.
+# Compile of ROM1.v was successful.
+# Compile of ROM2.v was successful.
+# Compile of linear_out.v was successful.
+# Compile of regions.v was successful.
+# Compile of regions_tb.sv was successful.
+# 9 compiles, 0 failed with no errors.
+restart -f
+# Loading work.address_tb
+# Loading work.core
+# Loading work.pipe_signals
+# Loading work.address_resolver
+# Loading work.ROM1
+# Loading work.ROM2
+# Loading work.interpolator
+# Loading work.fixed32_to_fp32
+# Loading work.CLZ_32bits
+# Loading work.priority_encoder_4b
+# Loading work.BNE
+# Loading work.mux_282
+# ** Warning: (vsim-3015) /home/diegotf/Escritorio/Addressings/Tanh/core.v(31): [PCDPC] - Port size (11) does not match connection size (10) for port 'address'. The port definition is at: /home/diegotf/Escritorio/Addressings/Tanh/pipe_signals.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /address_tb/core_/_pipe_signals File: /home/diegotf/Escritorio/Addressings/Tanh/pipe_signals.v
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of addres_tb.sv was successful.
+# Compile of core.v was successful with warnings.
+# Compile of fixed32_to_fp32.v was successful with warnings.
+# Compile of pipe_signals.v was successful with warnings.
+# Compile of ROM1.v was successful.
+# Compile of ROM2.v was successful.
+# Compile of linear_out.v was successful.
+# Compile of regions.v was successful.
+# Compile of regions_tb.sv was successful.
+# 9 compiles, 0 failed with no errors.
+restart -f
+# Loading work.address_tb
+# Loading work.core
+# Loading work.pipe_signals
+# Loading work.address_resolver
+# Loading work.ROM1
+# Loading work.ROM2
+# Loading work.interpolator
+# Loading work.fixed32_to_fp32
+# Loading work.CLZ_32bits
+# Loading work.priority_encoder_4b
+# Loading work.BNE
+# Loading work.mux_282
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of addres_tb.sv was successful.
+# Compile of core.v was successful with warnings.
+# Compile of fixed32_to_fp32.v was successful with warnings.
+# Compile of pipe_signals.v was successful with warnings.
+# Compile of ROM1.v was successful.
+# Compile of ROM2.v was successful.
+# Compile of linear_out.v was successful.
+# Compile of regions.v was successful.
+# Compile of regions_tb.sv was successful.
+# 9 compiles, 0 failed with no errors.
+restart -f
+# Loading work.address_tb
+# Loading work.core
+# Loading work.pipe_signals
+# Loading work.address_resolver
+# Loading work.ROM1
+# Loading work.ROM2
+# Loading work.interpolator
+# Loading work.fixed32_to_fp32
+# Loading work.CLZ_32bits
+# Loading work.priority_encoder_4b
+# Loading work.BNE
+# Loading work.mux_282
+# ** Warning: (vsim-3015) /home/diegotf/Escritorio/Addressings/Tanh/core.v(31): [PCDPC] - Port size (11) does not match connection size (10) for port 'address'. The port definition is at: /home/diegotf/Escritorio/Addressings/Tanh/pipe_signals.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /address_tb/core_/_pipe_signals File: /home/diegotf/Escritorio/Addressings/Tanh/pipe_signals.v
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart -f
+# ** Warning: (vsim-3015) /home/diegotf/Escritorio/Addressings/Tanh/core.v(31): [PCDPC] - Port size (11) does not match connection size (10) for port 'address'. The port definition is at: /home/diegotf/Escritorio/Addressings/Tanh/pipe_signals.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /address_tb/core_/_pipe_signals File: /home/diegotf/Escritorio/Addressings/Tanh/pipe_signals.v
+# Compile of addres_tb.sv was successful.
+# Compile of core.v was successful with warnings.
+# Compile of fixed32_to_fp32.v was successful with warnings.
+# Compile of pipe_signals.v was successful with warnings.
+# Compile of ROM1.v was successful.
+# Compile of ROM2.v was successful.
+# Compile of linear_out.v was successful.
+# Compile of regions.v was successful.
+# Compile of regions_tb.sv was successful.
+# 9 compiles, 0 failed with no errors.
+restart -f
+# Loading work.address_tb
+# Loading work.core
+# Loading work.pipe_signals
+# Loading work.address_resolver
+# Loading work.ROM1
+# Loading work.ROM2
+# Loading work.interpolator
+# Loading work.fixed32_to_fp32
+# Loading work.CLZ_32bits
+# Loading work.priority_encoder_4b
+# Loading work.BNE
+# Loading work.mux_282
+# ** Warning: (vsim-3015) /home/diegotf/Escritorio/Addressings/Tanh/core.v(31): [PCDPC] - Port size (10) does not match connection size (11) for port 'address_reg'. The port definition is at: /home/diegotf/Escritorio/Addressings/Tanh/pipe_signals.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /address_tb/core_/_pipe_signals File: /home/diegotf/Escritorio/Addressings/Tanh/pipe_signals.v
+# Compile of addres_tb.sv was successful.
+# Compile of core.v was successful with warnings.
+# Compile of fixed32_to_fp32.v was successful with warnings.
+# Compile of pipe_signals.v was successful with warnings.
+# Compile of ROM1.v was successful.
+# Compile of ROM2.v was successful.
+# Compile of linear_out.v was successful.
+# Compile of regions.v was successful.
+# Compile of regions_tb.sv was successful.
+# 9 compiles, 0 failed with no errors.
+restart -f
+# Loading work.address_tb
+# Loading work.core
+# Loading work.pipe_signals
+# Loading work.address_resolver
+# Loading work.ROM1
+# Loading work.ROM2
+# Loading work.interpolator
+# Loading work.fixed32_to_fp32
+# Loading work.CLZ_32bits
+# Loading work.priority_encoder_4b
+# Loading work.BNE
+# Loading work.mux_282
+# ** Warning: (vsim-3015) /home/diegotf/Escritorio/Addressings/Tanh/core.v(31): [PCDPC] - Port size (10) does not match connection size (11) for port 'address_reg'. The port definition is at: /home/diegotf/Escritorio/Addressings/Tanh/pipe_signals.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /address_tb/core_/_pipe_signals File: /home/diegotf/Escritorio/Addressings/Tanh/pipe_signals.v
+# Compile of addres_tb.sv was successful.
+# Compile of core.v was successful with warnings.
+# Compile of fixed32_to_fp32.v was successful with warnings.
+# Compile of pipe_signals.v was successful with warnings.
+# Compile of ROM1.v was successful.
+# Compile of ROM2.v was successful.
+# Compile of linear_out.v was successful.
+# Compile of regions.v was successful.
+# Compile of regions_tb.sv was successful.
+# 9 compiles, 0 failed with no errors.
+restart -f
+# Loading work.address_tb
+# Loading work.core
+# Loading work.pipe_signals
+# Loading work.address_resolver
+# Loading work.ROM1
+# Loading work.ROM2
+# Loading work.interpolator
+# Loading work.fixed32_to_fp32
+# Loading work.CLZ_32bits
+# Loading work.priority_encoder_4b
+# Loading work.BNE
+# Loading work.mux_282
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of addres_tb.sv was successful.
+# Compile of core.v was successful with warnings.
+# Compile of fixed32_to_fp32.v failed with 1 errors.
+# Compile of pipe_signals.v was successful with warnings.
+# Compile of ROM1.v was successful.
+# Compile of ROM2.v was successful.
+# Compile of linear_out.v was successful.
+# Compile of regions.v was successful.
+# Compile of regions_tb.sv was successful.
+# 9 compiles, 1 failed with 1 error.
+# Compile of addres_tb.sv was successful.
+# Compile of core.v was successful with warnings.
+# Compile of fixed32_to_fp32.v was successful with warnings.
+# Compile of pipe_signals.v was successful with warnings.
+# Compile of ROM1.v was successful.
+# Compile of ROM2.v was successful.
+# Compile of linear_out.v was successful.
+# Compile of regions.v was successful.
+# Compile of regions_tb.sv was successful.
+# 9 compiles, 0 failed with no errors.
+restart -f
+# Loading work.address_tb
+# Loading work.core
+# Loading work.pipe_signals
+# Loading work.address_resolver
+# Loading work.ROM1
+# Loading work.ROM2
+# Loading work.interpolator
+# Loading work.fixed32_to_fp32
+# Loading work.CLZ_32bits
+# Loading work.priority_encoder_4b
+# Loading work.BNE
+# Loading work.mux_282
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of addres_tb.sv was successful.
+# Compile of core.v was successful with warnings.
+# Compile of fixed32_to_fp32.v was successful with warnings.
+# Compile of pipe_signals.v was successful with warnings.
+# Compile of ROM1.v was successful.
+# Compile of ROM2.v was successful.
+# Compile of linear_out.v was successful.
+# Compile of regions.v was successful.
+# Compile of regions_tb.sv was successful.
+# 9 compiles, 0 failed with no errors.
+restart -f
+# Loading work.address_tb
+# Loading work.core
+# Loading work.pipe_signals
+# Loading work.address_resolver
+# Loading work.ROM1
+# Loading work.ROM2
+# Loading work.interpolator
+# Loading work.fixed32_to_fp32
+# Loading work.CLZ_32bits
+# Loading work.priority_encoder_4b
+# Loading work.BNE
+# Loading work.mux_282
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of addres_tb.sv was successful.
+# Compile of core.v was successful with warnings.
+# Compile of fixed32_to_fp32.v was successful with warnings.
+# Compile of pipe_signals.v was successful with warnings.
+# Compile of ROM1.v was successful.
+# Compile of ROM2.v was successful.
+# Compile of linear_out.v was successful.
+# Compile of regions.v was successful.
+# Compile of regions_tb.sv was successful.
+# 9 compiles, 0 failed with no errors.
+restart -f
+# Loading work.address_tb
+# Loading work.core
+# Loading work.pipe_signals
+# Loading work.address_resolver
+# Loading work.ROM1
+# Loading work.ROM2
+# Loading work.interpolator
+# Loading work.fixed32_to_fp32
+# Loading work.CLZ_32bits
+# Loading work.priority_encoder_4b
+# Loading work.BNE
+# Loading work.mux_282
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of addres_tb.sv was successful.
+# Compile of core.v was successful with warnings.
+# Compile of fixed32_to_fp32.v was successful with warnings.
+# Compile of pipe_signals.v was successful with warnings.
+# Compile of ROM1.v was successful.
+# Compile of ROM2.v was successful.
+# Compile of linear_out.v was successful.
+# Compile of regions.v was successful.
+# Compile of regions_tb.sv was successful.
+# 9 compiles, 0 failed with no errors.
+restart -f
+# Loading work.address_tb
+# Loading work.core
+# Loading work.pipe_signals
+# Loading work.address_resolver
+# Loading work.ROM1
+# Loading work.ROM2
+# Loading work.interpolator
+# Loading work.fixed32_to_fp32
+# Loading work.CLZ_32bits
+# Loading work.priority_encoder_4b
+# Loading work.BNE
+# Loading work.mux_282
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of addres_tb.sv was successful.
+# Compile of core.v was successful with warnings.
+# Compile of fixed32_to_fp32.v was successful with warnings.
+# Compile of pipe_signals.v was successful with warnings.
+# Compile of ROM1.v was successful.
+# Compile of ROM2.v was successful.
+# Compile of linear_out.v was successful.
+# Compile of regions.v was successful.
+# Compile of regions_tb.sv was successful.
+# 9 compiles, 0 failed with no errors.
+restart -f
+# Loading work.address_tb
+# Loading work.core
+# Loading work.pipe_signals
+# Loading work.address_resolver
+# Loading work.ROM1
+# Loading work.ROM2
+# Loading work.interpolator
+# Loading work.fixed32_to_fp32
+# Loading work.CLZ_32bits
+# Loading work.priority_encoder_4b
+# Loading work.BNE
+# Loading work.mux_282
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of addres_tb.sv was successful.
+# Compile of core.v was successful with warnings.
+# Compile of fixed32_to_fp32.v was successful with warnings.
+# Compile of pipe_signals.v was successful with warnings.
+# Compile of ROM1.v was successful.
+# Compile of ROM2.v was successful.
+# Compile of linear_out.v was successful.
+# Compile of regions.v was successful.
+# Compile of regions_tb.sv was successful.
+# 9 compiles, 0 failed with no errors.
+restart -f
+# Loading work.address_tb
+# Loading work.core
+# Loading work.pipe_signals
+# Loading work.address_resolver
+# Loading work.ROM1
+# Loading work.ROM2
+# Loading work.interpolator
+# Loading work.fixed32_to_fp32
+# Loading work.CLZ_32bits
+# Loading work.priority_encoder_4b
+# Loading work.BNE
+# Loading work.mux_282
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run

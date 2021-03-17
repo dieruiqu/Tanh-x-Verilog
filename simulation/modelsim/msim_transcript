@@ -1,0 +1,115 @@
+# do activations_ROM_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying /home/diegotf/programas/intelFPGA_lite/20.1/modelsim_ase/linuxaloem/../modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+/home/diegotf/Escritorio/Addressing\ update\ 2/Adressing/Addressing/verilog/Act_Functions {/home/diegotf/Escritorio/Addressing update 2/Adressing/Addressing/verilog/Act_Functions/core.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:30:43 on Mar 14,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/diegotf/Escritorio/Addressing update 2/Adressing/Addressing/verilog/Act_Functions" /home/diegotf/Escritorio/Addressing update 2/Adressing/Addressing/verilog/Act_Functions/core.v 
+# -- Compiling module core
+# ** Warning: /home/diegotf/Escritorio/Addressing update 2/Adressing/Addressing/verilog/Act_Functions/core.v(19): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+# ** Warning: /home/diegotf/Escritorio/Addressing update 2/Adressing/Addressing/verilog/Act_Functions/core.v(20): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+# ** Warning: /home/diegotf/Escritorio/Addressing update 2/Adressing/Addressing/verilog/Act_Functions/core.v(21): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+# ** Warning: /home/diegotf/Escritorio/Addressing update 2/Adressing/Addressing/verilog/Act_Functions/core.v(23): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+# ** Warning: /home/diegotf/Escritorio/Addressing update 2/Adressing/Addressing/verilog/Act_Functions/core.v(24): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+# ** Warning: /home/diegotf/Escritorio/Addressing update 2/Adressing/Addressing/verilog/Act_Functions/core.v(25): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+# ** Warning: /home/diegotf/Escritorio/Addressing update 2/Adressing/Addressing/verilog/Act_Functions/core.v(27): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+# ** Warning: /home/diegotf/Escritorio/Addressing update 2/Adressing/Addressing/verilog/Act_Functions/core.v(28): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+# -- Compiling module adjust
+# ** Warning: /home/diegotf/Escritorio/Addressing update 2/Adressing/Addressing/verilog/Act_Functions/core.v(73): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+# -- Compiling module interpolator
+# ** Warning: /home/diegotf/Escritorio/Addressing update 2/Adressing/Addressing/verilog/Act_Functions/core.v(128): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+# ** Warning: /home/diegotf/Escritorio/Addressing update 2/Adressing/Addressing/verilog/Act_Functions/core.v(129): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+# ** Warning: /home/diegotf/Escritorio/Addressing update 2/Adressing/Addressing/verilog/Act_Functions/core.v(130): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+# ** Warning: /home/diegotf/Escritorio/Addressing update 2/Adressing/Addressing/verilog/Act_Functions/core.v(133): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+# ** Warning: /home/diegotf/Escritorio/Addressing update 2/Adressing/Addressing/verilog/Act_Functions/core.v(134): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+# ** Warning: /home/diegotf/Escritorio/Addressing update 2/Adressing/Addressing/verilog/Act_Functions/core.v(136): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+# ** Warning: /home/diegotf/Escritorio/Addressing update 2/Adressing/Addressing/verilog/Act_Functions/core.v(137): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+# ** Warning: /home/diegotf/Escritorio/Addressing update 2/Adressing/Addressing/verilog/Act_Functions/core.v(138): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+# ** Warning: /home/diegotf/Escritorio/Addressing update 2/Adressing/Addressing/verilog/Act_Functions/core.v(140): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+# ** Warning: /home/diegotf/Escritorio/Addressing update 2/Adressing/Addressing/verilog/Act_Functions/core.v(142): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+# -- Compiling module resolve_address
+# ** Warning: /home/diegotf/Escritorio/Addressing update 2/Adressing/Addressing/verilog/Act_Functions/core.v(180): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+# ** Warning: /home/diegotf/Escritorio/Addressing update 2/Adressing/Addressing/verilog/Act_Functions/core.v(185): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+# -- Compiling module set_vars
+# 
+# Top level modules:
+# 	core
+# End time: 22:30:43 on Mar 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 21
+# vlog -vlog01compat -work work +incdir+/home/diegotf/Escritorio/Addressing\ update\ 2/Adressing/Addressing/verilog/Act_Functions {/home/diegotf/Escritorio/Addressing update 2/Adressing/Addressing/verilog/Act_Functions/fixed32_to_fp32.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:30:43 on Mar 14,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/diegotf/Escritorio/Addressing update 2/Adressing/Addressing/verilog/Act_Functions" /home/diegotf/Escritorio/Addressing update 2/Adressing/Addressing/verilog/Act_Functions/fixed32_to_fp32.v 
+# -- Compiling module fixed32_to_fp32
+# ** Warning: /home/diegotf/Escritorio/Addressing update 2/Adressing/Addressing/verilog/Act_Functions/fixed32_to_fp32.v(7): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+# ** Warning: /home/diegotf/Escritorio/Addressing update 2/Adressing/Addressing/verilog/Act_Functions/fixed32_to_fp32.v(10): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+# ** Warning: /home/diegotf/Escritorio/Addressing update 2/Adressing/Addressing/verilog/Act_Functions/fixed32_to_fp32.v(12): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+# ** Warning: /home/diegotf/Escritorio/Addressing update 2/Adressing/Addressing/verilog/Act_Functions/fixed32_to_fp32.v(13): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+# ** Warning: /home/diegotf/Escritorio/Addressing update 2/Adressing/Addressing/verilog/Act_Functions/fixed32_to_fp32.v(14): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+# ** Warning: /home/diegotf/Escritorio/Addressing update 2/Adressing/Addressing/verilog/Act_Functions/fixed32_to_fp32.v(15): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+# ** Warning: /home/diegotf/Escritorio/Addressing update 2/Adressing/Addressing/verilog/Act_Functions/fixed32_to_fp32.v(20): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+# ** Warning: /home/diegotf/Escritorio/Addressing update 2/Adressing/Addressing/verilog/Act_Functions/fixed32_to_fp32.v(32): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+# ** Warning: /home/diegotf/Escritorio/Addressing update 2/Adressing/Addressing/verilog/Act_Functions/fixed32_to_fp32.v(33): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+# -- Compiling module CLZ_32bits
+# ** Warning: /home/diegotf/Escritorio/Addressing update 2/Adressing/Addressing/verilog/Act_Functions/fixed32_to_fp32.v(73): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+# ** Warning: /home/diegotf/Escritorio/Addressing update 2/Adressing/Addressing/verilog/Act_Functions/fixed32_to_fp32.v(77): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+# ** Warning: /home/diegotf/Escritorio/Addressing update 2/Adressing/Addressing/verilog/Act_Functions/fixed32_to_fp32.v(78): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+# ** Warning: /home/diegotf/Escritorio/Addressing update 2/Adressing/Addressing/verilog/Act_Functions/fixed32_to_fp32.v(79): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+# ** Warning: /home/diegotf/Escritorio/Addressing update 2/Adressing/Addressing/verilog/Act_Functions/fixed32_to_fp32.v(80): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+# ** Warning: /home/diegotf/Escritorio/Addressing update 2/Adressing/Addressing/verilog/Act_Functions/fixed32_to_fp32.v(81): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+# ** Warning: /home/diegotf/Escritorio/Addressing update 2/Adressing/Addressing/verilog/Act_Functions/fixed32_to_fp32.v(82): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+# ** Warning: /home/diegotf/Escritorio/Addressing update 2/Adressing/Addressing/verilog/Act_Functions/fixed32_to_fp32.v(83): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+# -- Compiling module priority_encoder_4b
+# ** Warning: /home/diegotf/Escritorio/Addressing update 2/Adressing/Addressing/verilog/Act_Functions/fixed32_to_fp32.v(112): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+# ** Warning: /home/diegotf/Escritorio/Addressing update 2/Adressing/Addressing/verilog/Act_Functions/fixed32_to_fp32.v(113): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+# ** Warning: /home/diegotf/Escritorio/Addressing update 2/Adressing/Addressing/verilog/Act_Functions/fixed32_to_fp32.v(115): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+# ** Warning: /home/diegotf/Escritorio/Addressing update 2/Adressing/Addressing/verilog/Act_Functions/fixed32_to_fp32.v(116): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+# -- Compiling module BNE
+# ** Warning: /home/diegotf/Escritorio/Addressing update 2/Adressing/Addressing/verilog/Act_Functions/fixed32_to_fp32.v(129): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+# ** Warning: /home/diegotf/Escritorio/Addressing update 2/Adressing/Addressing/verilog/Act_Functions/fixed32_to_fp32.v(130): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+# ** Warning: /home/diegotf/Escritorio/Addressing update 2/Adressing/Addressing/verilog/Act_Functions/fixed32_to_fp32.v(131): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+# -- Compiling module mux_282
+# ** Warning: /home/diegotf/Escritorio/Addressing update 2/Adressing/Addressing/verilog/Act_Functions/fixed32_to_fp32.v(148): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+# ** Warning: /home/diegotf/Escritorio/Addressing update 2/Adressing/Addressing/verilog/Act_Functions/fixed32_to_fp32.v(149): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+# ** Warning: /home/diegotf/Escritorio/Addressing update 2/Adressing/Addressing/verilog/Act_Functions/fixed32_to_fp32.v(150): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+# ** Warning: /home/diegotf/Escritorio/Addressing update 2/Adressing/Addressing/verilog/Act_Functions/fixed32_to_fp32.v(153): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+# 
+# Top level modules:
+# 	fixed32_to_fp32
+# End time: 22:30:43 on Mar 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 28
+# vlog -vlog01compat -work work +incdir+/home/diegotf/Escritorio/Addressing\ update\ 2/Adressing/Addressing/verilog/Act_Functions {/home/diegotf/Escritorio/Addressing update 2/Adressing/Addressing/verilog/Act_Functions/pipe_signals.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:30:43 on Mar 14,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/diegotf/Escritorio/Addressing update 2/Adressing/Addressing/verilog/Act_Functions" /home/diegotf/Escritorio/Addressing update 2/Adressing/Addressing/verilog/Act_Functions/pipe_signals.v 
+# -- Compiling module pipe_signals
+# ** Warning: /home/diegotf/Escritorio/Addressing update 2/Adressing/Addressing/verilog/Act_Functions/pipe_signals.v(27): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+# ** Warning: /home/diegotf/Escritorio/Addressing update 2/Adressing/Addressing/verilog/Act_Functions/pipe_signals.v(29): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+# ** Warning: /home/diegotf/Escritorio/Addressing update 2/Adressing/Addressing/verilog/Act_Functions/pipe_signals.v(30): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+# ** Warning: /home/diegotf/Escritorio/Addressing update 2/Adressing/Addressing/verilog/Act_Functions/pipe_signals.v(31): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+# ** Warning: /home/diegotf/Escritorio/Addressing update 2/Adressing/Addressing/verilog/Act_Functions/pipe_signals.v(33): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+# ** Warning: /home/diegotf/Escritorio/Addressing update 2/Adressing/Addressing/verilog/Act_Functions/pipe_signals.v(34): (vlog-2608) Keyword "unsigned" not allowed here in Verilog 2001.
+# 
+# Top level modules:
+# 	pipe_signals
+# End time: 22:30:43 on Mar 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 6
+# vlog -vlog01compat -work work +incdir+/home/diegotf/Escritorio/Addressing\ update\ 2/Adressing/Addressing/verilog/Act_Functions {/home/diegotf/Escritorio/Addressing update 2/Adressing/Addressing/verilog/Act_Functions/dual_port_rom.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:30:43 on Mar 14,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/diegotf/Escritorio/Addressing update 2/Adressing/Addressing/verilog/Act_Functions" /home/diegotf/Escritorio/Addressing update 2/Adressing/Addressing/verilog/Act_Functions/dual_port_rom.v 
+# -- Compiling module dual_port_rom
+# 
+# Top level modules:
+# 	dual_port_rom
+# End time: 22:30:43 on Mar 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# Loading project Act_Functions
