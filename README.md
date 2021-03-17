@@ -9,8 +9,8 @@
 
 The used method to calculate the Tanh(x) is via
 table interpolation doing use of 2 ROMS of 1024
-addresses, one of them with a length word of 19
-bits and the other with only 12 bits of length word. It has a latency of 11
+addresses, one of them with a word length of 19
+bits and the other with only 12 bits of word length. It has a latency of 11
 clock cycles and a Slow Fmax of 160 MHz and a 
 fast fmax of 315 MHz. The number of ALM's are 210
 and a total of 289 registers. The input is in 
@@ -20,12 +20,12 @@ output is in the IEEE-754 standard of 32 bits
 </div>
 
 The tricky here is resolve the address of table 
-interpolator ROM with the SMB's of the IEEE-754 input 
+interpolator ROM with the MSB's of the IEEE-754 input 
 mantissa, avoiding in this way the hardware necessary 
 to swap between IEEE-754 and fixed point, but 
 the values in ROM are stored in Fixed Point.
 
-One of the advantages of this arch. is the possibility 
+One of the advantages of this architecture is the possibility 
 of adding new math functions, using the same interpolator
 and address resolver. In this way can be implemented 
 the sigmoid function or the exp function, at the expense of
