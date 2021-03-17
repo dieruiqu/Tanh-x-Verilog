@@ -40,3 +40,10 @@ mentioned are aplicables in the negative range of input values.
 The linear and saturation region they don't need be calculated via interpolation,
 in this way the hardware resources are also relaxed. Modules "regions"
 and "linear_out" implement the saturation and linear regions of Tanh(x).
+
+# ModelSim simulation
+The simulation of the Tanh(x) in the hyperbolic region is swhows in the following image:
+
+![picture](img/abc.png)
+
+
