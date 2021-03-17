@@ -15,7 +15,7 @@ module linear_out
 			// Biggest saturation region
 			if ((region == 2'b01) && (x[31] == 1'b0))
 				y <= 32'h3F800000; // 1
-			// Samllest saturation region
+			// Samallest saturation region
 			else if ((region == 2'b01) && (x[31] == 1'b1))
 				y <= 32'hBF800000; // -1
 			// Linear region
