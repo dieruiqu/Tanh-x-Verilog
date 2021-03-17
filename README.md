@@ -35,8 +35,8 @@ One particularity of the Tanh(x) function is the 3 regions in it:
 Saturation, Hyperbolic and lineal. Taking in count this, the input values
 greaters or equals than 8 are in the saturation region, it is to say that
 the output from the function will be 1. Values in range from 0 to
-1/32 are in the lineal region, therefore Tanh(x) = x and finally is
-the hyperbolic region defined between 1/32 <= x < 8 --> This module
+1/32 are in the lineal region, therefore Tanh(x) = x and finally,
+the hyperbolic region is defined between 1/32 <= x < 8 --> This module
 implement the calculus in the hyperbolic region. Because of the Tanh(x) 
 function is a odd function, then: Tanh(-x) = -Tanh(x), so the regions
 mentioned are aplicables in the negative range of input values.
