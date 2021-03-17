@@ -33,8 +33,8 @@ greaters or equals than 8 are in the saturation region, it is to say that
 the output from the function will be 1. Values in range from 0 to
 1/32 are in the lineal region, therefore Tanh(x) = x and finally is
 the hyperbolic region defined between 1/32 <= x < 8 --> This module
-implements the calculus in the hyperbolic region. Because of the Tanh(x) 
-function is a impar function, then: Tanh(-x) = -Tanh(x), so the regions
+implement the calculus in the hyperbolic region. Because of the Tanh(x) 
+function is a odd function, then: Tanh(-x) = -Tanh(x), so the regions
 mentioned are aplicables in the negative range of input values.
 
 The linear and saturation region they don't need be calculated via interpolation,
