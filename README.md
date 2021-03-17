@@ -54,7 +54,7 @@ and "linear_out" implement the saturation and linear regions of Tanh(x).
 
 
 # ModelSim simulation
-The simulation of the Tanh(x) in the hyperbolic region is swhows in the following image:
+The simulation of the Tanh(x) in the hyperbolic region is shows in the following image:
 
 ![picture](muestra.bmp)
 
