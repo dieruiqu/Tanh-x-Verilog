@@ -41,6 +41,13 @@ The linear and saturation region they don't need be calculated via interpolation
 in this way the hardware resources are also relaxed. Modules "regions"
 and "linear_out" implement the saturation and linear regions of Tanh(x).
 
+# Files
+- core.v: drives all the logic for the hyperbolic region. Implements a interpolator core with 2 ROMS of 1024 addresses.
+- pipe_signals.v: contains all the necessary delays to synchronize the pipelined design.
+- fixed32_to_fp32: module used to manage the conversion between Fixed Point and IEEE-754.
+- linear_out.v and regions.v: thismodules calculate the output when the input value is in the saturation or lineal region.
+
+
 # ModelSim simulation
 The simulation of the Tanh(x) in the hyperbolic region is swhows in the following image:
 
