@@ -50,7 +50,7 @@ and "linear_out" implement the saturation and linear regions of Tanh(x).
 - `core.v`: drives all the logic for the hyperbolic region. Implements a interpolator core with 2 ROMS of 1024 addresses.
 - `pipe_signals.v`: contains all the necessary delays to synchronize the pipelined design.
 - `fixed32_to_fp32`: module used to manage the conversion between Fixed Point and IEEE-754.
-- `linear_out.v` and `regions.v`: thismodules calculate the output when the input value is in the saturation or lineal region.
+- `linear_out.v` and `regions.v`: this modules calculate the output when the input value is in the saturation or lineal region.
 
 
 # ModelSim simulation
