@@ -41,7 +41,7 @@ implement the calculus in the hyperbolic region. Because of the Tanh(x)
 function is a odd function, then: Tanh(-x) = -Tanh(x), so the regions
 mentioned are aplicables in the negative range of input values.
 
-The linear and saturation region they don't need be calculated via interpolation,
+The linear and saturation region don't need be calculated via interpolation,
 in this way the hardware resources are also relaxed. Modules "regions"
 and "linear_out" implement the saturation and linear regions of Tanh(x).
 
