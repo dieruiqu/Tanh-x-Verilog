@@ -7,7 +7,7 @@
 - Description: This module performs the hyperbolic 
   tangent for AI purposes.
   
-<div style="text-align: justify">
+<div style="text-align: right">
 The used method to calculate the Tanh(x) is via
 table interpolation doing use of 2 ROMS of 1024
 addresses, one of them with a word length of 19
